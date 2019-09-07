@@ -1,0 +1,5 @@
+{
+	"require": {
+		"ec-cube/ec-cube": "4.*"
+	}
+}

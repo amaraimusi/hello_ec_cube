@@ -1,0 +1,783 @@
+####################################################################################################
+#######################################  07/Sep/2019 12:40:30  #####################################
+####################################################################################################
+___ PHP ____________________________________________________________________________________________
+User Deprecated: Doctrine\Common\ClassLoader is deprecated.
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:59:\"User Deprecated: Doctrine\\Common\\ClassLoader is deprecated.\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:90:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\common\\lib\\Doctrine\\Common\\ClassLoader.php\";s:7:\"\0*\0line\";i:7;s:16:\"\0Exception\0trace\";a:26:{i:0;a:3:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\debug\\DebugClassLoader.php\";s:4:\"line\";i:146;s:8:\"function\";s:7:\"require\";}i:1;a:3:{s:8:\"function\";s:9:\"loadClass\";s:5:\"class\";s:40:\"Symfony\\Component\\Debug\\DebugClassLoader\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataInfo.php\";s:4:\"line\";i:1028;s:8:\"function\";s:17:\"spl_autoload_call\";}i:3;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:266;s:8:\"function\";s:20:\"validateAssociations\";s:5:\"class\";s:38:\"Doctrine\\ORM\\Mapping\\ClassMetadataInfo\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:245;s:8:\"function\";s:23:\"validateRuntimeMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:305;s:8:\"function\";s:14:\"doLoadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:78;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:183;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:86:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\EntityManager.php\";s:4:\"line\";i:283;s:8:\"function\";s:14:\"getMetadataFor\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:88:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EntityManager_9a5be93.php\";s:4:\"line\";i:110;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:26:\"Doctrine\\ORM\\EntityManager\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:102:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\doctrine-bundle\\Repository\\ServiceEntityRepository.php\";s:4:\"line\";i:31;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:21:\"EntityManager_9a5be93\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:80:\"C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Repository\\ProductClassRepository.php\";s:4:\"line\";i:29;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:65:\"Doctrine\\Bundle\\DoctrineBundle\\Repository\\ServiceEntityRepository\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3017;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:40:\"Eccube\\Repository\\ProductClassRepository\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3047;s:8:\"function\";s:32:\"getProductClassRepositoryService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2759;s:8:\"function\";s:21:\"getCartServiceService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2857;s:8:\"function\";s:14:\"getTwigService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3357;s:8:\"function\";s:36:\"getMobileTemplatePathListenerService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:229;s:8:\"function\";s:26:\"ContainerRdyrpdk\\{closure}\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:61;s:8:\"function\";s:13:\"sortListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:19;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\ContainerAwareEventDispatcher.php\";s:4:\"line\";i:128;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:20;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:250;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:63:\"Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:21;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:134;s:8:\"function\";s:10:\"preProcess\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:22;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:23;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:24;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:25;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+--> extra: { file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\debug\ErrorHandler.php', line: 249, class: Symfony\Component\Debug\ErrorHandler, function: setLoggers, uid: 6547e2a, user_id: N/A, session_id: N/A }
+___ ADMIN __________________________________________________________________________________________
+INIT
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 6547e2a, user_id: N/A, session_id: N/A }
+___ ** DEPRECATION ** ______________________________________________________________________________
+User Deprecated: The "sensio_framework_extra.routing.loader.annot_class" service is deprecated
+since version 5.2
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:112:\"User Deprecated: The \"sensio_framework_extra.routing.loader.annot_class\" service is deprecated since version 5.2\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:123:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\getSensioFrameworkExtra_Routing_Loader_AnnotClassService.php\";s:7:\"\0*\0line\";i:8;s:16:\"\0Exception\0trace\";a:19:{i:0;a:3:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2196;s:8:\"function\";s:7:\"require\";}i:1;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\getRouting_LoaderService.php\";s:4:\"line\";i:38;s:8:\"function\";s:4:\"load\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2196;s:8:\"function\";s:7:\"require\";}i:3;a:5:{s:4:\"file\";s:81:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\dependency-injection\\Container.php\";s:4:\"line\";i:304;s:8:\"function\";s:4:\"load\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:82:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\framework-bundle\\Routing\\Router.php\";s:4:\"line\";i:56;s:8:\"function\";s:3:\"get\";s:5:\"class\";s:47:\"Symfony\\Component\\DependencyInjection\\Container\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:371;s:8:\"function\";s:18:\"getRouteCollection\";s:5:\"class\";s:45:\"Symfony\\Bundle\\FrameworkBundle\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:289;s:8:\"function\";s:24:\"getMatcherDumperInstance\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\config\\ResourceCheckerConfigCacheFactory.php\";s:4:\"line\";i:43;s:8:\"function\";s:35:\"Symfony\\Component\\Routing\\{closure}\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:302;s:8:\"function\";s:5:\"cache\";s:5:\"class\";s:58:\"Symfony\\Component\\Config\\ResourceCheckerConfigCacheFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:256;s:8:\"function\";s:10:\"getMatcher\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php\";s:4:\"line\";i:115;s:8:\"function\";s:12:\"matchRequest\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:89:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\WrappedListener.php\";s:4:\"line\";i:104;s:8:\"function\";s:15:\"onKernelRequest\";s:5:\"class\";s:57:\"Symfony\\Component\\HttpKernel\\EventListener\\RouterListener\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:212;s:8:\"function\";s:8:\"__invoke\";s:5:\"class\";s:55:\"Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:44;s:8:\"function\";s:10:\"doDispatch\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:139;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\debug\ErrorHandler.php', line: 523, class: Symfony\Component\Debug\ErrorHandler, function: handleError, uid: 6547e2a, user_id: N/A, session_id: N/A }
+___ ** DEPRECATION ** ______________________________________________________________________________
+User Deprecated: The "sensio_framework_extra.routing.loader.annot_dir" service is deprecated since
+version 5.2
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:110:\"User Deprecated: The \"sensio_framework_extra.routing.loader.annot_dir\" service is deprecated since version 5.2\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:121:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\getSensioFrameworkExtra_Routing_Loader_AnnotDirService.php\";s:7:\"\0*\0line\";i:8;s:16:\"\0Exception\0trace\";a:19:{i:0;a:3:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2196;s:8:\"function\";s:7:\"require\";}i:1;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\getRouting_LoaderService.php\";s:4:\"line\";i:39;s:8:\"function\";s:4:\"load\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2196;s:8:\"function\";s:7:\"require\";}i:3;a:5:{s:4:\"file\";s:81:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\dependency-injection\\Container.php\";s:4:\"line\";i:304;s:8:\"function\";s:4:\"load\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:82:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\framework-bundle\\Routing\\Router.php\";s:4:\"line\";i:56;s:8:\"function\";s:3:\"get\";s:5:\"class\";s:47:\"Symfony\\Component\\DependencyInjection\\Container\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:371;s:8:\"function\";s:18:\"getRouteCollection\";s:5:\"class\";s:45:\"Symfony\\Bundle\\FrameworkBundle\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:289;s:8:\"function\";s:24:\"getMatcherDumperInstance\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\config\\ResourceCheckerConfigCacheFactory.php\";s:4:\"line\";i:43;s:8:\"function\";s:35:\"Symfony\\Component\\Routing\\{closure}\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:302;s:8:\"function\";s:5:\"cache\";s:5:\"class\";s:58:\"Symfony\\Component\\Config\\ResourceCheckerConfigCacheFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:256;s:8:\"function\";s:10:\"getMatcher\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php\";s:4:\"line\";i:115;s:8:\"function\";s:12:\"matchRequest\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:89:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\WrappedListener.php\";s:4:\"line\";i:104;s:8:\"function\";s:15:\"onKernelRequest\";s:5:\"class\";s:57:\"Symfony\\Component\\HttpKernel\\EventListener\\RouterListener\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:212;s:8:\"function\";s:8:\"__invoke\";s:5:\"class\";s:55:\"Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:44;s:8:\"function\";s:10:\"doDispatch\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:139;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+___ ** DEPRECATION ** ______________________________________________________________________________
+User Deprecated: The "sensio_framework_extra.routing.loader.annot_file" service is deprecated
+since version 5.2
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:111:\"User Deprecated: The \"sensio_framework_extra.routing.loader.annot_file\" service is deprecated since version 5.2\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:122:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\getSensioFrameworkExtra_Routing_Loader_AnnotFileService.php\";s:7:\"\0*\0line\";i:8;s:16:\"\0Exception\0trace\";a:19:{i:0;a:3:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2196;s:8:\"function\";s:7:\"require\";}i:1;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\getRouting_LoaderService.php\";s:4:\"line\";i:40;s:8:\"function\";s:4:\"load\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2196;s:8:\"function\";s:7:\"require\";}i:3;a:5:{s:4:\"file\";s:81:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\dependency-injection\\Container.php\";s:4:\"line\";i:304;s:8:\"function\";s:4:\"load\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:82:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\framework-bundle\\Routing\\Router.php\";s:4:\"line\";i:56;s:8:\"function\";s:3:\"get\";s:5:\"class\";s:47:\"Symfony\\Component\\DependencyInjection\\Container\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:371;s:8:\"function\";s:18:\"getRouteCollection\";s:5:\"class\";s:45:\"Symfony\\Bundle\\FrameworkBundle\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:289;s:8:\"function\";s:24:\"getMatcherDumperInstance\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\config\\ResourceCheckerConfigCacheFactory.php\";s:4:\"line\";i:43;s:8:\"function\";s:35:\"Symfony\\Component\\Routing\\{closure}\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:302;s:8:\"function\";s:5:\"cache\";s:5:\"class\";s:58:\"Symfony\\Component\\Config\\ResourceCheckerConfigCacheFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:65:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\routing\\Router.php\";s:4:\"line\";i:256;s:8:\"function\";s:10:\"getMatcher\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:91:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\EventListener\\RouterListener.php\";s:4:\"line\";i:115;s:8:\"function\";s:12:\"matchRequest\";s:5:\"class\";s:32:\"Symfony\\Component\\Routing\\Router\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:89:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\WrappedListener.php\";s:4:\"line\";i:104;s:8:\"function\";s:15:\"onKernelRequest\";s:5:\"class\";s:57:\"Symfony\\Component\\HttpKernel\\EventListener\\RouterListener\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:212;s:8:\"function\";s:8:\"__invoke\";s:5:\"class\";s:55:\"Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:44;s:8:\"function\";s:10:\"doDispatch\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:139;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+___ REQUEST ________________________________________________________________________________________
+Matched route "admin_homepage".
+--> route: admin_homepage
+route_parameters:
+  _controller: 'Eccube\Controller\Admin\AdminController::index'
+  _route: admin_homepage
+request_uri: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/'
+method: GET
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\http-kernel\EventListener\RouterListener.php', line: 125, class: Symfony\Component\HttpKernel\EventListener\RouterListener, function: onKernelRequest, uid: 6547e2a, user_id: N/A, session_id: N/A }
+___ (!) SECURITY ___________________________________________________________________________________
+Populated the TokenStorage with an anonymous Token.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\AnonymousAuthenticationListener.php', line: 60, class: Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener, function: handle, uid: 6547e2a, user_id: anon., session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ (!) SECURITY ___________________________________________________________________________________
+Access denied, the user is not fully authenticated; redirecting to authentication entry point.
+--> exception:
+  class: Symfony\Component\Security\Core\Exception\AccessDeniedException
+  message: 'Access Denied.'
+  code: 403
+  file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\AccessListener.php'
+  line: 68
+  trace: "#0 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\security-bundle\\Debug\\WrappedListener.php(46): Symfony\\Component\\Security\\Http\\Firewall\\AccessListener->handle(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent))\n#1 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\security-bundle\\Debug\\TraceableFirewallListener.php(35): Symfony\\Bundle\\SecurityBundle\\Debug\\WrappedListener->handle(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent))\n#2 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\security\\Http\\Firewall.php(84): Symfony\\Bundle\\SecurityBundle\\Debug\\TraceableFirewallListener->handleRequest(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent), Object(Generator))\n#3 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\security-bundle\\EventListener\\FirewallListener.php(48): Symfony\\Component\\Security\\Http\\Firewall->onKernelRequest(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent))\n#4 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\WrappedListener.php(104): Symfony\\Bundle\\SecurityBundle\\EventListener\\FirewallListener->onKernelRequest(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent), 'kernel.request', Object(Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher))\n#5 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(212): Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener->__invoke(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent), 'kernel.request', Object(Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher))\n#6 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(44): Symfony\\Component\\EventDispatcher\\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent))\n#7 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php(139): Symfony\\Component\\EventDispatcher\\EventDispatcher->dispatch('kernel.request', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent))\n#8 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(127): Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher->dispatch('kernel.request', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseEvent))\n#9 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(68): Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw(Object(Symfony\\Component\\HttpFoundation\\Request), 1)\n#10 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php(200): Symfony\\Component\\HttpKernel\\HttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#11 C:\\Users\\user\\git\\hello_ec_cube\\index.php(58): Symfony\\Component\\HttpKernel\\Kernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request))\n#12 {main}"
+  previous: null
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ExceptionListener.php', line: 122, class: Symfony\Component\Security\Http\Firewall\ExceptionListener, function: handleAccessDeniedException, uid: 6547e2a, user_id: anon., session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ (!) SECURITY ___________________________________________________________________________________
+Calling Authentication entry point.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ExceptionListener.php', line: 183, class: Symfony\Component\Security\Http\Firewall\ExceptionListener, function: startAuthentication, uid: 6547e2a, user_id: anon., session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ REQUEST ________________________________________________________________________________________
+Matched route "admin_login".
+--> route: admin_login
+route_parameters:
+  _controller: 'Eccube\Controller\Admin\AdminController::login'
+  _route: admin_login
+request_uri: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/login'
+method: GET
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\http-kernel\EventListener\RouterListener.php', line: 125, class: Symfony\Component\HttpKernel\EventListener\RouterListener, function: onKernelRequest, uid: 6547e2a, user_id: anon., session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION time_zone = '+00:00'
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 6547e2a, user_id: anon., session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.company_name AS company_name_2, t0.company_kana AS company_kana_3,
+t0.postal_code AS postal_code_4, t0.addr01 AS addr01_5, t0.addr02 AS addr02_6, t0.phone_number AS
+phone_number_7, t0.business_hour AS business_hour_8, t0.email01 AS email01_9, t0.email02 AS
+email02_10, t0.email03 AS email03_11, t0.email04 AS email04_12, t0.shop_name AS shop_name_13,
+t0.shop_kana AS shop_kana_14, t0.shop_name_eng AS shop_name_eng_15, t0.update_date AS
+update_date_16, t0.good_traded AS good_traded_17, t0.message AS message_18,
+t0.delivery_free_amount AS delivery_free_amount_19, t0.delivery_free_quantity AS
+delivery_free_quantity_20, t0.option_mypage_order_status_display AS
+option_mypage_order_status_display_21, t0.option_nostock_hidden AS option_nostock_hidden_22,
+t0.option_favorite_product AS option_favorite_product_23, t0.option_product_delivery_fee AS
+option_product_delivery_fee_24, t0.option_product_tax_rule AS option_product_tax_rule_25,
+t0.option_customer_activate AS option_customer_activate_26, t0.option_remember_me AS
+option_remember_me_27, t0.authentication_key AS authentication_key_28, t0.php_path AS php_path_29,
+t0.option_point AS option_point_30, t0.basic_point_rate AS basic_point_rate_31,
+t0.point_conversion_rate AS point_conversion_rate_32, t0.country_id AS country_id_33, t0.pref_id
+AS pref_id_34, t0.discriminator_type FROM dtb_base_info t0 WHERE t0.id = ? AND
+t0.discriminator_type IN ('baseinfo')
+--> 'query params': [1]
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.code AS code_3, t0.enabled AS enabled_4, t0.version AS
+version_5, t0.source AS source_6, t0.initialized AS initialized_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.discriminator_type FROM dtb_plugin t0 WHERE
+t0.discriminator_type IN ('plugin')
+___ ADMIN __________________________________________________________________________________________
+LOGIC END
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 6547e2a, user_id: anon., session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.code AS code_3, t0.enabled AS enabled_4, t0.version AS
+version_5, t0.source AS source_6, t0.initialized AS initialized_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.discriminator_type FROM dtb_plugin t0 WHERE
+t0.discriminator_type IN ('plugin')
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 6547e2a, user_id: anon., session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ APP ____________________________________________________________________________________________
+PROCESS END
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: 6547e2a, user_id: anon., session_id: N/A }
+___ APP ____________________________________________________________________________________________
+Transaction is not active. Rollback skipped.
+
+
+####################################################################################################
+#######################################  07/Sep/2019 12:41:03  #####################################
+####################################################################################################
+___ PHP ____________________________________________________________________________________________
+User Deprecated: Doctrine\Common\ClassLoader is deprecated.
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:59:\"User Deprecated: Doctrine\\Common\\ClassLoader is deprecated.\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:90:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\common\\lib\\Doctrine\\Common\\ClassLoader.php\";s:7:\"\0*\0line\";i:7;s:16:\"\0Exception\0trace\";a:26:{i:0;a:3:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\debug\\DebugClassLoader.php\";s:4:\"line\";i:146;s:8:\"function\";s:7:\"require\";}i:1;a:3:{s:8:\"function\";s:9:\"loadClass\";s:5:\"class\";s:40:\"Symfony\\Component\\Debug\\DebugClassLoader\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataInfo.php\";s:4:\"line\";i:1028;s:8:\"function\";s:17:\"spl_autoload_call\";}i:3;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:266;s:8:\"function\";s:20:\"validateAssociations\";s:5:\"class\";s:38:\"Doctrine\\ORM\\Mapping\\ClassMetadataInfo\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:245;s:8:\"function\";s:23:\"validateRuntimeMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:305;s:8:\"function\";s:14:\"doLoadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:78;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:183;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:86:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\EntityManager.php\";s:4:\"line\";i:283;s:8:\"function\";s:14:\"getMetadataFor\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:88:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EntityManager_9a5be93.php\";s:4:\"line\";i:110;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:26:\"Doctrine\\ORM\\EntityManager\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:102:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\doctrine-bundle\\Repository\\ServiceEntityRepository.php\";s:4:\"line\";i:31;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:21:\"EntityManager_9a5be93\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:80:\"C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Repository\\ProductClassRepository.php\";s:4:\"line\";i:29;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:65:\"Doctrine\\Bundle\\DoctrineBundle\\Repository\\ServiceEntityRepository\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3017;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:40:\"Eccube\\Repository\\ProductClassRepository\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3047;s:8:\"function\";s:32:\"getProductClassRepositoryService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2759;s:8:\"function\";s:21:\"getCartServiceService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2857;s:8:\"function\";s:14:\"getTwigService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3357;s:8:\"function\";s:36:\"getMobileTemplatePathListenerService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:229;s:8:\"function\";s:26:\"ContainerRdyrpdk\\{closure}\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:61;s:8:\"function\";s:13:\"sortListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:19;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\ContainerAwareEventDispatcher.php\";s:4:\"line\";i:128;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:20;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:250;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:63:\"Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:21;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:134;s:8:\"function\";s:10:\"preProcess\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:22;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:23;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:24;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:25;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+--> extra: { file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\debug\ErrorHandler.php', line: 249, class: Symfony\Component\Debug\ErrorHandler, function: setLoggers, uid: f298923, user_id: N/A, session_id: N/A }
+___ ADMIN __________________________________________________________________________________________
+INIT
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: f298923, user_id: N/A, session_id: N/A }
+___ REQUEST ________________________________________________________________________________________
+Matched route "admin_login".
+--> route: admin_login
+route_parameters:
+  _controller: 'Eccube\Controller\Admin\AdminController::login'
+  _route: admin_login
+request_uri: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/login'
+method: POST
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\http-kernel\EventListener\RouterListener.php', line: 125, class: Symfony\Component\HttpKernel\EventListener\RouterListener, function: onKernelRequest, uid: f298923, user_id: N/A, session_id: N/A }
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION time_zone = '+00:00'
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: f298923, user_id: N/A, session_id: b96eic0s9p0918gs9vhgb3mpv2 }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.department AS department_3, t0.login_id AS login_id_4,
+t0.password AS password_5, t0.salt AS salt_6, t0.sort_no AS sort_no_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.login_date AS login_date_10, t0.work_id AS
+work_id_11, t0.authority_id AS authority_id_12, t0.creator_id AS creator_id_13,
+t0.discriminator_type FROM dtb_member t0 WHERE t0.login_id = ? AND t0.work_id = ? AND
+t0.discriminator_type IN ('member') LIMIT 1
+--> 'query params': [neko, 1]
+___ (!) SECURITY ___________________________________________________________________________________
+User has been authenticated successfully.
+--> username: neko
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\AbstractAuthenticationListener.php', line: 206, class: Symfony\Component\Security\Http\Firewall\AbstractAuthenticationListener, function: onSuccess, uid: f298923, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: f298923, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+UPDATE dtb_member SET login_date = ?, update_date = ? WHERE id = ?
+--> 'query params': ['2019-09-07T03:41:03+00:00', '2019-09-07T03:41:03+00:00', 1]
+___ DOCTRINE _______________________________________________________________________________________
+"COMMIT"
+___ ADMIN __________________________________________________________________________________________
+LOGIC END
+--> - admin_login
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: f298923, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ (!) SECURITY ___________________________________________________________________________________
+Stored the security token in the session.
+--> key: _security_admin
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 144, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: onKernelResponse, uid: f298923, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.code AS code_3, t0.enabled AS enabled_4, t0.version AS
+version_5, t0.source AS source_6, t0.initialized AS initialized_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.discriminator_type FROM dtb_plugin t0 WHERE
+t0.discriminator_type IN ('plugin')
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: f298923, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ APP ____________________________________________________________________________________________
+PROCESS END
+--> - admin_login
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/login, ip: '::1', http_method: POST, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: f298923, user_id: 1, session_id: N/A }
+___ APP ____________________________________________________________________________________________
+Transaction is not active. Rollback skipped.
+
+
+####################################################################################################
+#######################################  07/Sep/2019 12:41:06  #####################################
+####################################################################################################
+___ PHP ____________________________________________________________________________________________
+User Deprecated: Doctrine\Common\ClassLoader is deprecated.
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:59:\"User Deprecated: Doctrine\\Common\\ClassLoader is deprecated.\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:90:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\common\\lib\\Doctrine\\Common\\ClassLoader.php\";s:7:\"\0*\0line\";i:7;s:16:\"\0Exception\0trace\";a:26:{i:0;a:3:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\debug\\DebugClassLoader.php\";s:4:\"line\";i:146;s:8:\"function\";s:7:\"require\";}i:1;a:3:{s:8:\"function\";s:9:\"loadClass\";s:5:\"class\";s:40:\"Symfony\\Component\\Debug\\DebugClassLoader\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataInfo.php\";s:4:\"line\";i:1028;s:8:\"function\";s:17:\"spl_autoload_call\";}i:3;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:266;s:8:\"function\";s:20:\"validateAssociations\";s:5:\"class\";s:38:\"Doctrine\\ORM\\Mapping\\ClassMetadataInfo\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:245;s:8:\"function\";s:23:\"validateRuntimeMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:305;s:8:\"function\";s:14:\"doLoadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:78;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:183;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:86:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\EntityManager.php\";s:4:\"line\";i:283;s:8:\"function\";s:14:\"getMetadataFor\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:88:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EntityManager_9a5be93.php\";s:4:\"line\";i:110;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:26:\"Doctrine\\ORM\\EntityManager\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:102:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\doctrine-bundle\\Repository\\ServiceEntityRepository.php\";s:4:\"line\";i:31;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:21:\"EntityManager_9a5be93\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:80:\"C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Repository\\ProductClassRepository.php\";s:4:\"line\";i:29;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:65:\"Doctrine\\Bundle\\DoctrineBundle\\Repository\\ServiceEntityRepository\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3017;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:40:\"Eccube\\Repository\\ProductClassRepository\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3047;s:8:\"function\";s:32:\"getProductClassRepositoryService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2759;s:8:\"function\";s:21:\"getCartServiceService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2857;s:8:\"function\";s:14:\"getTwigService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3357;s:8:\"function\";s:36:\"getMobileTemplatePathListenerService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:229;s:8:\"function\";s:26:\"ContainerRdyrpdk\\{closure}\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:61;s:8:\"function\";s:13:\"sortListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:19;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\ContainerAwareEventDispatcher.php\";s:4:\"line\";i:128;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:20;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:250;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:63:\"Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:21;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:134;s:8:\"function\";s:10:\"preProcess\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:22;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:23;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:24;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:25;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+--> extra: { file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\debug\ErrorHandler.php', line: 249, class: Symfony\Component\Debug\ErrorHandler, function: setLoggers, uid: 3e7979c, user_id: N/A, session_id: N/A }
+___ ADMIN __________________________________________________________________________________________
+INIT
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: N/A, session_id: N/A }
+___ REQUEST ________________________________________________________________________________________
+Matched route "admin_homepage".
+--> route: admin_homepage
+route_parameters:
+  _controller: 'Eccube\Controller\Admin\AdminController::index'
+  _route: admin_homepage
+request_uri: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/'
+method: GET
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\http-kernel\EventListener\RouterListener.php', line: 125, class: Symfony\Component\HttpKernel\EventListener\RouterListener, function: onKernelRequest, uid: 3e7979c, user_id: N/A, session_id: N/A }
+___ (!) SECURITY ___________________________________________________________________________________
+Read existing security token from the session.
+--> key: _security_admin
+token_class: Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 99, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: handle, uid: 3e7979c, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION time_zone = '+00:00'
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.department AS department_3, t0.login_id AS login_id_4,
+t0.password AS password_5, t0.salt AS salt_6, t0.sort_no AS sort_no_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.login_date AS login_date_10, t0.work_id AS
+work_id_11, t0.authority_id AS authority_id_12, t0.creator_id AS creator_id_13,
+t0.discriminator_type FROM dtb_member t0 WHERE t0.login_id = ? AND t0.work_id = ? AND
+t0.discriminator_type IN ('member') LIMIT 1
+--> 'query params': [neko, 1]
+___ (!) SECURITY ___________________________________________________________________________________
+User was reloaded from a user provider.
+--> provider: Eccube\Security\Core\User\MemberProvider
+username: neko
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 197, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: refreshUser, uid: 3e7979c, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.deny_url AS deny_url_2, t0.create_date AS create_date_3, t0.update_date
+AS update_date_4, t0.authority_id AS authority_id_5, t0.creator_id AS creator_id_6,
+t0.discriminator_type FROM dtb_authority_role t0 WHERE t0.authority_id = ? AND
+t0.discriminator_type IN ('authorityrole')
+--> 'query params': [0]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+PROCESS START
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.company_name AS company_name_2, t0.company_kana AS company_kana_3,
+t0.postal_code AS postal_code_4, t0.addr01 AS addr01_5, t0.addr02 AS addr02_6, t0.phone_number AS
+phone_number_7, t0.business_hour AS business_hour_8, t0.email01 AS email01_9, t0.email02 AS
+email02_10, t0.email03 AS email03_11, t0.email04 AS email04_12, t0.shop_name AS shop_name_13,
+t0.shop_kana AS shop_kana_14, t0.shop_name_eng AS shop_name_eng_15, t0.update_date AS
+update_date_16, t0.good_traded AS good_traded_17, t0.message AS message_18,
+t0.delivery_free_amount AS delivery_free_amount_19, t0.delivery_free_quantity AS
+delivery_free_quantity_20, t0.option_mypage_order_status_display AS
+option_mypage_order_status_display_21, t0.option_nostock_hidden AS option_nostock_hidden_22,
+t0.option_favorite_product AS option_favorite_product_23, t0.option_product_delivery_fee AS
+option_product_delivery_fee_24, t0.option_product_tax_rule AS option_product_tax_rule_25,
+t0.option_customer_activate AS option_customer_activate_26, t0.option_remember_me AS
+option_remember_me_27, t0.authentication_key AS authentication_key_28, t0.php_path AS php_path_29,
+t0.option_point AS option_point_30, t0.basic_point_rate AS basic_point_rate_31,
+t0.point_conversion_rate AS point_conversion_rate_32, t0.country_id AS country_id_33, t0.pref_id
+AS pref_id_34, t0.discriminator_type FROM dtb_base_info t0 WHERE t0.id = ? AND
+t0.discriminator_type IN ('baseinfo')
+--> 'query params': [1]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.deny_url AS deny_url_2, t0.create_date AS create_date_3, t0.update_date
+AS update_date_4, t0.authority_id AS authority_id_5, t0.creator_id AS creator_id_6,
+t0.discriminator_type FROM dtb_authority_role t0 WHERE t0.authority_id = ? AND
+t0.discriminator_type IN ('authorityrole')
+--> 'query params': [0]
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+___ ADMIN __________________________________________________________________________________________
+Begin Transaction.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+LOGIC START
+--> - admin_homepage
+___ DOCTRINE _______________________________________________________________________________________
+SELECT
+                    t1.order_status_id as status,
+                    COUNT(t1.id) as count
+                FROM
+                    dtb_order t1
+                WHERE
+                    t1.order_status_id NOT IN (:excludes)
+                GROUP BY
+                    t1.order_status_id
+                ORDER BY
+                    t1.order_status_id
+--> excludes: [3, 5, 7, 8, 9]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) AS sclr_0, SUM(d0_.payment_total) AS
+sclr_1, COUNT(d0_.id) AS sclr_2 FROM dtb_order d0_ WHERE (d0_.order_status_id NOT IN (?) AND
+SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) = SUBSTRING(? FROM 1 FOR 10)) AND
+d0_.discriminator_type IN ('order') GROUP BY sclr_0
+--> 'query params': [[3, 7, 8, 9], '2019-09-07T03:41:06+00:00']
+___ DOCTRINE _______________________________________________________________________________________
+SELECT SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) AS sclr_0, SUM(d0_.payment_total) AS
+sclr_1, COUNT(d0_.id) AS sclr_2 FROM dtb_order d0_ WHERE (d0_.order_status_id NOT IN (?) AND
+SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) = SUBSTRING(? FROM 1 FOR 10)) AND
+d0_.discriminator_type IN ('order') GROUP BY sclr_0
+--> 'query params': [[3, 7, 8, 9], '2019-09-06T03:41:06+00:00']
+___ DOCTRINE _______________________________________________________________________________________
+SELECT SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 7) AS sclr_0, SUM(d0_.payment_total) AS
+sclr_1, COUNT(d0_.id) AS sclr_2 FROM dtb_order d0_ WHERE (d0_.order_status_id NOT IN (?) AND
+SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 7) = SUBSTRING(? FROM 1 FOR 7)) AND
+d0_.discriminator_type IN ('order') GROUP BY sclr_0
+--> 'query params': [[3, 7, 8, 9], '2019-09-07T03:41:06+00:00']
+___ DOCTRINE _______________________________________________________________________________________
+SELECT count(DISTINCT d0_.id) AS sclr_0 FROM dtb_product d0_ INNER JOIN dtb_product_class d1_ ON
+d0_.id = d1_.product_id AND d1_.discriminator_type IN ('productclass') WHERE (d1_.stock_unlimited
+= ? AND d1_.stock = 0) AND d0_.discriminator_type IN ('product')
+--> 'query params': [false]
+___ DOCTRINE _______________________________________________________________________________________
+SELECT count(d0_.id) AS sclr_0 FROM dtb_product d0_ WHERE (d0_.product_status_id IN (?)) AND
+d0_.discriminator_type IN ('product')
+--> 'query params': [[1, 2]]
+___ DOCTRINE _______________________________________________________________________________________
+SELECT count(d0_.id) AS sclr_0 FROM dtb_customer d0_ WHERE (d0_.customer_status_id = ?) AND
+d0_.discriminator_type IN ('customer')
+--> 'query params': [2]
+___ ADMIN __________________________________________________________________________________________
+http get_info
+--> url: 'https://beta-package-api.ec-cube.net/plugins/recommended'
+content_type: null
+http_code: 0
+header_size: 0
+request_size: 0
+filetime: -1
+ssl_verify_result: 0
+redirect_count: 0
+total_time: 20.258089
+namelookup_time: 0.049147
+connect_time: !!float 0
+pretransfer_time: !!float 0
+size_upload: !!float 0
+size_download: !!float 0
+speed_download: !!float 0
+speed_upload: !!float 0
+download_content_length: !!float -1
+upload_content_length: !!float -1
+starttransfer_time: !!float 0
+redirect_time: !!float 0
+redirect_url: ''
+primary_ip: ''
+certinfo: {  }
+primary_port: 0
+local_ip: ''
+local_port: 0
+message: 'Failed to connect to beta-package-api.ec-cube.net port 443: Timed out'
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ *** CRITICAL ERROR *** ==> PHP _________________________________________________________________
+Class 'IntlTimeZone' not found
+--> exception:
+  class: Symfony\Component\Debug\Exception\FatalThrowableError
+  message: 'Class ''IntlTimeZone'' not found'
+  code: 0
+  file: 'C:\Users\user\git\hello_ec_cube\vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php'
+  line: 71
+  trace: "#0 C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Twig\\Extension\\IntlExtension.php(72): twig_localized_date_filter(Object(Twig_Environment), Object(DateTime), 'medium', 'short')\n#1 C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\twig\\2d\\2d4a493e68f400dbce8ef6f773afcd45b344d3fd81874d22730dc8554a6d0268.php(123): Eccube\\Twig\\Extension\\IntlExtension->date_min(Object(Twig_Environment), Object(DateTime))\n#2 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(390): __TwigTemplate_770b88513cd50e58d09fec6621d0e9ec3edb50d0213f49380364dd045f8a86fa->doDisplay(Array, Array)\n#3 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(367): Twig_Template->displayWithErrorHandling(Array, Array)\n#4 C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\twig\\a7\\a73eda661e6b370bc421bb0f52e9a18bc6d39b1d562ab8f0e8d5a85cd8f97fd5.php(37): Twig_Template->display(Array, Array)\n#5 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(390): __TwigTemplate_602554e12291b5583a98610557d28a07edefbbb46c625c6e6eaee2c4753edf13->doDisplay(Array, Array)\n#6 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(367): Twig_Template->displayWithErrorHandling(Array, Array)\n#7 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(375): Twig_Template->display(Array)\n#8 C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Twig\\Environment.php(54): Twig_Template->render(Array)\n#9 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\sensio\\framework-extra-bundle\\EventListener\\TemplateListener.php(103): Eccube\\Twig\\Environment->render('@admin/index.tw...', Array)\n#10 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\WrappedListener.php(104): Sensio\\Bundle\\FrameworkExtraBundle\\EventListener\\TemplateListener->onKernelView(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent), 'kernel.view', Object(Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher))\n#11 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(212): Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener->__invoke(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent), 'kernel.view', Object(Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher))\n#12 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(44): Symfony\\Component\\EventDispatcher\\EventDispatcher->doDispatch(Array, 'kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#13 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php(139): Symfony\\Component\\EventDispatcher\\EventDispatcher->dispatch('kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#14 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(156): Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher->dispatch('kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#15 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(68): Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw(Object(Symfony\\Component\\HttpFoundation\\Request), 1)\n#16 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php(200): Symfony\\Component\\HttpKernel\\HttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#17 C:\\Users\\user\\git\\hello_ec_cube\\index.php(58): Symfony\\Component\\HttpKernel\\Kernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request))\n#18 {main}"
+  previous: null
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\debug\ErrorHandler.php', line: 571, class: Symfony\Component\Debug\ErrorHandler, function: handleException, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+"ROLLBACK"
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+___ ADMIN __________________________________________________________________________________________
+Rollback executed.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ *** ERROR *** ==> ADMIN ________________________________________________________________________
+Symfony\Component\Debug\Exception\ClassNotFoundException: Attempted to load class "IntlTimeZone"
+from the global namespace.
+Did you forget a "use" statement? (uncaught exception) at
+C:\Users\user\git\hello_ec_cube\vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php line
+71
+--> exception:
+  class: Symfony\Component\Debug\Exception\ClassNotFoundException
+  message: "Attempted to load class \"IntlTimeZone\" from the global namespace.\nDid you forget a \"use\" statement?"
+  code: 0
+  file: 'C:\Users\user\git\hello_ec_cube\vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php'
+  line: 71
+  trace: "#0 C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Twig\\Extension\\IntlExtension.php(72): twig_localized_date_filter(Object(Twig_Environment), Object(DateTime), 'medium', 'short')\n#1 C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\twig\\2d\\2d4a493e68f400dbce8ef6f773afcd45b344d3fd81874d22730dc8554a6d0268.php(123): Eccube\\Twig\\Extension\\IntlExtension->date_min(Object(Twig_Environment), Object(DateTime))\n#2 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(390): __TwigTemplate_770b88513cd50e58d09fec6621d0e9ec3edb50d0213f49380364dd045f8a86fa->doDisplay(Array, Array)\n#3 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(367): Twig_Template->displayWithErrorHandling(Array, Array)\n#4 C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\twig\\a7\\a73eda661e6b370bc421bb0f52e9a18bc6d39b1d562ab8f0e8d5a85cd8f97fd5.php(37): Twig_Template->display(Array, Array)\n#5 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(390): __TwigTemplate_602554e12291b5583a98610557d28a07edefbbb46c625c6e6eaee2c4753edf13->doDisplay(Array, Array)\n#6 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(367): Twig_Template->displayWithErrorHandling(Array, Array)\n#7 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(375): Twig_Template->display(Array)\n#8 C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Twig\\Environment.php(54): Twig_Template->render(Array)\n#9 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\sensio\\framework-extra-bundle\\EventListener\\TemplateListener.php(103): Eccube\\Twig\\Environment->render('@admin/index.tw...', Array)\n#10 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\WrappedListener.php(104): Sensio\\Bundle\\FrameworkExtraBundle\\EventListener\\TemplateListener->onKernelView(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent), 'kernel.view', Object(Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher))\n#11 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(212): Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener->__invoke(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent), 'kernel.view', Object(Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher))\n#12 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(44): Symfony\\Component\\EventDispatcher\\EventDispatcher->doDispatch(Array, 'kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#13 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php(139): Symfony\\Component\\EventDispatcher\\EventDispatcher->dispatch('kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#14 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(156): Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher->dispatch('kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#15 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(68): Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw(Object(Symfony\\Component\\HttpFoundation\\Request), 1)\n#16 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php(200): Symfony\\Component\\HttpKernel\\HttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#17 C:\\Users\\user\\git\\hello_ec_cube\\index.php(58): Symfony\\Component\\HttpKernel\\Kernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request))\n#18 {main}"
+  previous: null
+___ *** CRITICAL ERROR *** ==> REQUEST _____________________________________________________________
+Uncaught PHP Exception Symfony\Component\Debug\Exception\ClassNotFoundException: "Attempted to
+load class "IntlTimeZone" from the global namespace.
+Did you forget a "use" statement?" at
+C:\Users\user\git\hello_ec_cube\vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php line
+71
+--> exception:
+  class: Symfony\Component\Debug\Exception\ClassNotFoundException
+  message: "Attempted to load class \"IntlTimeZone\" from the global namespace.\nDid you forget a \"use\" statement?"
+  code: 0
+  file: 'C:\Users\user\git\hello_ec_cube\vendor\twig\extensions\lib\Twig\Extensions\Extension\Intl.php'
+  line: 71
+  trace: "#0 C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Twig\\Extension\\IntlExtension.php(72): twig_localized_date_filter(Object(Twig_Environment), Object(DateTime), 'medium', 'short')\n#1 C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\twig\\2d\\2d4a493e68f400dbce8ef6f773afcd45b344d3fd81874d22730dc8554a6d0268.php(123): Eccube\\Twig\\Extension\\IntlExtension->date_min(Object(Twig_Environment), Object(DateTime))\n#2 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(390): __TwigTemplate_770b88513cd50e58d09fec6621d0e9ec3edb50d0213f49380364dd045f8a86fa->doDisplay(Array, Array)\n#3 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(367): Twig_Template->displayWithErrorHandling(Array, Array)\n#4 C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\twig\\a7\\a73eda661e6b370bc421bb0f52e9a18bc6d39b1d562ab8f0e8d5a85cd8f97fd5.php(37): Twig_Template->display(Array, Array)\n#5 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(390): __TwigTemplate_602554e12291b5583a98610557d28a07edefbbb46c625c6e6eaee2c4753edf13->doDisplay(Array, Array)\n#6 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(367): Twig_Template->displayWithErrorHandling(Array, Array)\n#7 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\twig\\twig\\lib\\Twig\\Template.php(375): Twig_Template->display(Array)\n#8 C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Twig\\Environment.php(54): Twig_Template->render(Array)\n#9 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\sensio\\framework-extra-bundle\\EventListener\\TemplateListener.php(103): Eccube\\Twig\\Environment->render('@admin/index.tw...', Array)\n#10 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\WrappedListener.php(104): Sensio\\Bundle\\FrameworkExtraBundle\\EventListener\\TemplateListener->onKernelView(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent), 'kernel.view', Object(Symfony\\Component\\HttpKernel\\Debug\\TraceableEventDispatcher))\n#11 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(212): Symfony\\Component\\EventDispatcher\\Debug\\WrappedListener->__invoke(Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent), 'kernel.view', Object(Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher))\n#12 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php(44): Symfony\\Component\\EventDispatcher\\EventDispatcher->doDispatch(Array, 'kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#13 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php(139): Symfony\\Component\\EventDispatcher\\EventDispatcher->dispatch('kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#14 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(156): Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher->dispatch('kernel.view', Object(Symfony\\Component\\HttpKernel\\Event\\GetResponseForControllerResultEvent))\n#15 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php(68): Symfony\\Component\\HttpKernel\\HttpKernel->handleRaw(Object(Symfony\\Component\\HttpFoundation\\Request), 1)\n#16 C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php(200): Symfony\\Component\\HttpKernel\\HttpKernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request), 1, true)\n#17 C:\\Users\\user\\git\\hello_ec_cube\\index.php(58): Symfony\\Component\\HttpKernel\\Kernel->handle(Object(Symfony\\Component\\HttpFoundation\\Request))\n#18 {main}"
+  previous: null
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\http-kernel\EventListener\ExceptionListener.php', line: 102, class: Symfony\Component\HttpKernel\EventListener\ExceptionListener, function: logException, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.code AS code_3, t0.enabled AS enabled_4, t0.version AS
+version_5, t0.source AS source_6, t0.initialized AS initialized_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.discriminator_type FROM dtb_plugin t0 WHERE
+t0.discriminator_type IN ('plugin')
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+LOGIC END
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ (!) SECURITY ___________________________________________________________________________________
+Stored the security token in the session.
+--> key: _security_admin
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 144, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: onKernelResponse, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.code AS code_3, t0.enabled AS enabled_4, t0.version AS
+version_5, t0.source AS source_6, t0.initialized AS initialized_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.discriminator_type FROM dtb_plugin t0 WHERE
+t0.discriminator_type IN ('plugin')
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ APP ____________________________________________________________________________________________
+PROCESS END
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: 1, session_id: N/A }
+___ DOCTRINE _______________________________________________________________________________________
+"COMMIT"
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 3e7979c, user_id: 1, session_id: N/A }
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+___ APP ____________________________________________________________________________________________
+Commit executed.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: 3e7979c, user_id: 1, session_id: N/A }
+
+
+####################################################################################################
+#######################################  07/Sep/2019 12:50:06  #####################################
+####################################################################################################
+___ PHP ____________________________________________________________________________________________
+User Deprecated: Doctrine\Common\ClassLoader is deprecated.
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:59:\"User Deprecated: Doctrine\\Common\\ClassLoader is deprecated.\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:90:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\common\\lib\\Doctrine\\Common\\ClassLoader.php\";s:7:\"\0*\0line\";i:7;s:16:\"\0Exception\0trace\";a:26:{i:0;a:3:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\debug\\DebugClassLoader.php\";s:4:\"line\";i:146;s:8:\"function\";s:7:\"require\";}i:1;a:3:{s:8:\"function\";s:9:\"loadClass\";s:5:\"class\";s:40:\"Symfony\\Component\\Debug\\DebugClassLoader\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataInfo.php\";s:4:\"line\";i:1028;s:8:\"function\";s:17:\"spl_autoload_call\";}i:3;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:266;s:8:\"function\";s:20:\"validateAssociations\";s:5:\"class\";s:38:\"Doctrine\\ORM\\Mapping\\ClassMetadataInfo\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:245;s:8:\"function\";s:23:\"validateRuntimeMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:305;s:8:\"function\";s:14:\"doLoadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:78;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:183;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:86:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\EntityManager.php\";s:4:\"line\";i:283;s:8:\"function\";s:14:\"getMetadataFor\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:88:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EntityManager_9a5be93.php\";s:4:\"line\";i:110;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:26:\"Doctrine\\ORM\\EntityManager\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:102:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\doctrine-bundle\\Repository\\ServiceEntityRepository.php\";s:4:\"line\";i:31;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:21:\"EntityManager_9a5be93\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:80:\"C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Repository\\ProductClassRepository.php\";s:4:\"line\";i:29;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:65:\"Doctrine\\Bundle\\DoctrineBundle\\Repository\\ServiceEntityRepository\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3017;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:40:\"Eccube\\Repository\\ProductClassRepository\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3047;s:8:\"function\";s:32:\"getProductClassRepositoryService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2759;s:8:\"function\";s:21:\"getCartServiceService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2857;s:8:\"function\";s:14:\"getTwigService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3357;s:8:\"function\";s:36:\"getMobileTemplatePathListenerService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:229;s:8:\"function\";s:26:\"ContainerRdyrpdk\\{closure}\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:61;s:8:\"function\";s:13:\"sortListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:19;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\ContainerAwareEventDispatcher.php\";s:4:\"line\";i:128;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:20;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:250;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:63:\"Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:21;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:134;s:8:\"function\";s:10:\"preProcess\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:22;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:23;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:24;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:25;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+--> extra: { file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\debug\ErrorHandler.php', line: 249, class: Symfony\Component\Debug\ErrorHandler, function: setLoggers, uid: 85a8e1e, user_id: N/A, session_id: N/A }
+___ ADMIN __________________________________________________________________________________________
+INIT
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 85a8e1e, user_id: N/A, session_id: N/A }
+___ REQUEST ________________________________________________________________________________________
+Matched route "admin_homepage".
+--> route: admin_homepage
+route_parameters:
+  _controller: 'Eccube\Controller\Admin\AdminController::index'
+  _route: admin_homepage
+request_uri: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/'
+method: GET
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\http-kernel\EventListener\RouterListener.php', line: 125, class: Symfony\Component\HttpKernel\EventListener\RouterListener, function: onKernelRequest, uid: 85a8e1e, user_id: N/A, session_id: N/A }
+___ (!) SECURITY ___________________________________________________________________________________
+Read existing security token from the session.
+--> key: _security_admin
+token_class: Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 99, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: handle, uid: 85a8e1e, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION time_zone = '+00:00'
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 85a8e1e, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.department AS department_3, t0.login_id AS login_id_4,
+t0.password AS password_5, t0.salt AS salt_6, t0.sort_no AS sort_no_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.login_date AS login_date_10, t0.work_id AS
+work_id_11, t0.authority_id AS authority_id_12, t0.creator_id AS creator_id_13,
+t0.discriminator_type FROM dtb_member t0 WHERE t0.login_id = ? AND t0.work_id = ? AND
+t0.discriminator_type IN ('member') LIMIT 1
+--> 'query params': [neko, 1]
+___ (!) SECURITY ___________________________________________________________________________________
+User was reloaded from a user provider.
+--> provider: Eccube\Security\Core\User\MemberProvider
+username: neko
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 197, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: refreshUser, uid: 85a8e1e, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.deny_url AS deny_url_2, t0.create_date AS create_date_3, t0.update_date
+AS update_date_4, t0.authority_id AS authority_id_5, t0.creator_id AS creator_id_6,
+t0.discriminator_type FROM dtb_authority_role t0 WHERE t0.authority_id = ? AND
+t0.discriminator_type IN ('authorityrole')
+--> 'query params': [0]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+PROCESS START
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.company_name AS company_name_2, t0.company_kana AS company_kana_3,
+t0.postal_code AS postal_code_4, t0.addr01 AS addr01_5, t0.addr02 AS addr02_6, t0.phone_number AS
+phone_number_7, t0.business_hour AS business_hour_8, t0.email01 AS email01_9, t0.email02 AS
+email02_10, t0.email03 AS email03_11, t0.email04 AS email04_12, t0.shop_name AS shop_name_13,
+t0.shop_kana AS shop_kana_14, t0.shop_name_eng AS shop_name_eng_15, t0.update_date AS
+update_date_16, t0.good_traded AS good_traded_17, t0.message AS message_18,
+t0.delivery_free_amount AS delivery_free_amount_19, t0.delivery_free_quantity AS
+delivery_free_quantity_20, t0.option_mypage_order_status_display AS
+option_mypage_order_status_display_21, t0.option_nostock_hidden AS option_nostock_hidden_22,
+t0.option_favorite_product AS option_favorite_product_23, t0.option_product_delivery_fee AS
+option_product_delivery_fee_24, t0.option_product_tax_rule AS option_product_tax_rule_25,
+t0.option_customer_activate AS option_customer_activate_26, t0.option_remember_me AS
+option_remember_me_27, t0.authentication_key AS authentication_key_28, t0.php_path AS php_path_29,
+t0.option_point AS option_point_30, t0.basic_point_rate AS basic_point_rate_31,
+t0.point_conversion_rate AS point_conversion_rate_32, t0.country_id AS country_id_33, t0.pref_id
+AS pref_id_34, t0.discriminator_type FROM dtb_base_info t0 WHERE t0.id = ? AND
+t0.discriminator_type IN ('baseinfo')
+--> 'query params': [1]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.deny_url AS deny_url_2, t0.create_date AS create_date_3, t0.update_date
+AS update_date_4, t0.authority_id AS authority_id_5, t0.creator_id AS creator_id_6,
+t0.discriminator_type FROM dtb_authority_role t0 WHERE t0.authority_id = ? AND
+t0.discriminator_type IN ('authorityrole')
+--> 'query params': [0]
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+___ ADMIN __________________________________________________________________________________________
+Begin Transaction.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+LOGIC START
+--> - admin_homepage
+___ DOCTRINE _______________________________________________________________________________________
+SELECT
+                    t1.order_status_id as status,
+                    COUNT(t1.id) as count
+                FROM
+                    dtb_order t1
+                WHERE
+                    t1.order_status_id NOT IN (:excludes)
+                GROUP BY
+                    t1.order_status_id
+                ORDER BY
+                    t1.order_status_id
+--> excludes: [3, 5, 7, 8, 9]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) AS sclr_0, SUM(d0_.payment_total) AS
+sclr_1, COUNT(d0_.id) AS sclr_2 FROM dtb_order d0_ WHERE (d0_.order_status_id NOT IN (?) AND
+SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) = SUBSTRING(? FROM 1 FOR 10)) AND
+d0_.discriminator_type IN ('order') GROUP BY sclr_0
+--> 'query params': [[3, 7, 8, 9], '2019-09-07T03:50:06+00:00']
+___ DOCTRINE _______________________________________________________________________________________
+SELECT SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) AS sclr_0, SUM(d0_.payment_total) AS
+sclr_1, COUNT(d0_.id) AS sclr_2 FROM dtb_order d0_ WHERE (d0_.order_status_id NOT IN (?) AND
+SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 10) = SUBSTRING(? FROM 1 FOR 10)) AND
+d0_.discriminator_type IN ('order') GROUP BY sclr_0
+--> 'query params': [[3, 7, 8, 9], '2019-09-06T03:50:06+00:00']
+___ DOCTRINE _______________________________________________________________________________________
+SELECT SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 7) AS sclr_0, SUM(d0_.payment_total) AS
+sclr_1, COUNT(d0_.id) AS sclr_2 FROM dtb_order d0_ WHERE (d0_.order_status_id NOT IN (?) AND
+SUBSTRING(CONCAT(d0_.order_date, '') FROM 1 FOR 7) = SUBSTRING(? FROM 1 FOR 7)) AND
+d0_.discriminator_type IN ('order') GROUP BY sclr_0
+--> 'query params': [[3, 7, 8, 9], '2019-09-07T03:50:06+00:00']
+___ DOCTRINE _______________________________________________________________________________________
+SELECT count(DISTINCT d0_.id) AS sclr_0 FROM dtb_product d0_ INNER JOIN dtb_product_class d1_ ON
+d0_.id = d1_.product_id AND d1_.discriminator_type IN ('productclass') WHERE (d1_.stock_unlimited
+= ? AND d1_.stock = 0) AND d0_.discriminator_type IN ('product')
+--> 'query params': [false]
+___ DOCTRINE _______________________________________________________________________________________
+SELECT count(d0_.id) AS sclr_0 FROM dtb_product d0_ WHERE (d0_.product_status_id IN (?)) AND
+d0_.discriminator_type IN ('product')
+--> 'query params': [[1, 2]]
+___ DOCTRINE _______________________________________________________________________________________
+SELECT count(d0_.id) AS sclr_0 FROM dtb_customer d0_ WHERE (d0_.customer_status_id = ?) AND
+d0_.discriminator_type IN ('customer')
+--> 'query params': [2]
+___ ADMIN __________________________________________________________________________________________
+http get_info
+--> url: 'https://beta-package-api.ec-cube.net/plugins/recommended'
+content_type: null
+http_code: 0
+header_size: 0
+request_size: 0
+filetime: -1
+ssl_verify_result: 0
+redirect_count: 0
+total_time: 20.263464
+namelookup_time: 0.05594
+connect_time: !!float 0
+pretransfer_time: !!float 0
+size_upload: !!float 0
+size_download: !!float 0
+speed_download: !!float 0
+speed_upload: !!float 0
+download_content_length: !!float -1
+upload_content_length: !!float -1
+starttransfer_time: !!float 0
+redirect_time: !!float 0
+redirect_url: ''
+primary_ip: ''
+certinfo: {  }
+primary_port: 0
+local_ip: ''
+local_port: 0
+message: 'Failed to connect to beta-package-api.ec-cube.net port 443: Timed out'
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.display_order_count AS display_order_count_1, t0.id AS id_2, t0.name AS name_3,
+t0.sort_no AS sort_no_4, t0.discriminator_type FROM mtb_order_status t0 WHERE t0.id NOT IN (?) AND
+t0.discriminator_type IN ('orderstatus') ORDER BY t0.sort_no ASC
+--> 'query params': [[3, 5, 7, 8, 9]]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+LOGIC END
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ (!) SECURITY ___________________________________________________________________________________
+Stored the security token in the session.
+--> key: _security_admin
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 144, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: onKernelResponse, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.code AS code_3, t0.enabled AS enabled_4, t0.version AS
+version_5, t0.source AS source_6, t0.initialized AS initialized_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.discriminator_type FROM dtb_plugin t0 WHERE
+t0.discriminator_type IN ('plugin')
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 85a8e1e, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ APP ____________________________________________________________________________________________
+PROCESS END
+--> - admin_homepage
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: 85a8e1e, user_id: 1, session_id: N/A }
+___ DOCTRINE _______________________________________________________________________________________
+"COMMIT"
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: 85a8e1e, user_id: 1, session_id: N/A }
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+___ APP ____________________________________________________________________________________________
+Commit executed.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: 85a8e1e, user_id: 1, session_id: N/A }
+
+
+####################################################################################################
+#######################################  07/Sep/2019 12:50:36  #####################################
+####################################################################################################
+___ PHP ____________________________________________________________________________________________
+User Deprecated: Doctrine\Common\ClassLoader is deprecated.
+--> exception: "O:14:\"ErrorException\":8:{s:10:\"\0*\0message\";s:59:\"User Deprecated: Doctrine\\Common\\ClassLoader is deprecated.\";s:17:\"\0Exception\0string\";s:0:\"\";s:7:\"\0*\0code\";i:0;s:7:\"\0*\0file\";s:90:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\common\\lib\\Doctrine\\Common\\ClassLoader.php\";s:7:\"\0*\0line\";i:7;s:16:\"\0Exception\0trace\";a:26:{i:0;a:3:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\debug\\DebugClassLoader.php\";s:4:\"line\";i:146;s:8:\"function\";s:7:\"require\";}i:1;a:3:{s:8:\"function\";s:9:\"loadClass\";s:5:\"class\";s:40:\"Symfony\\Component\\Debug\\DebugClassLoader\";s:4:\"type\";s:2:\"->\";}i:2;a:3:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataInfo.php\";s:4:\"line\";i:1028;s:8:\"function\";s:17:\"spl_autoload_call\";}i:3;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:266;s:8:\"function\";s:20:\"validateAssociations\";s:5:\"class\";s:38:\"Doctrine\\ORM\\Mapping\\ClassMetadataInfo\";s:4:\"type\";s:2:\"->\";}i:4;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:245;s:8:\"function\";s:23:\"validateRuntimeMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:5;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:305;s:8:\"function\";s:14:\"doLoadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:6;a:5:{s:4:\"file\";s:101:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\Mapping\\ClassMetadataFactory.php\";s:4:\"line\";i:78;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:7;a:5:{s:4:\"file\";s:132:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\persistence\\lib\\Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory.php\";s:4:\"line\";i:183;s:8:\"function\";s:12:\"loadMetadata\";s:5:\"class\";s:41:\"Doctrine\\ORM\\Mapping\\ClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:8;a:5:{s:4:\"file\";s:86:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\orm\\lib\\Doctrine\\ORM\\EntityManager.php\";s:4:\"line\";i:283;s:8:\"function\";s:14:\"getMetadataFor\";s:5:\"class\";s:64:\"Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory\";s:4:\"type\";s:2:\"->\";}i:9;a:5:{s:4:\"file\";s:88:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EntityManager_9a5be93.php\";s:4:\"line\";i:110;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:26:\"Doctrine\\ORM\\EntityManager\";s:4:\"type\";s:2:\"->\";}i:10;a:5:{s:4:\"file\";s:102:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\doctrine\\doctrine-bundle\\Repository\\ServiceEntityRepository.php\";s:4:\"line\";i:31;s:8:\"function\";s:16:\"getClassMetadata\";s:5:\"class\";s:21:\"EntityManager_9a5be93\";s:4:\"type\";s:2:\"->\";}i:11;a:5:{s:4:\"file\";s:80:\"C:\\Users\\user\\git\\hello_ec_cube\\src\\Eccube\\Repository\\ProductClassRepository.php\";s:4:\"line\";i:29;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:65:\"Doctrine\\Bundle\\DoctrineBundle\\Repository\\ServiceEntityRepository\";s:4:\"type\";s:2:\"->\";}i:12;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3017;s:8:\"function\";s:11:\"__construct\";s:5:\"class\";s:40:\"Eccube\\Repository\\ProductClassRepository\";s:4:\"type\";s:2:\"->\";}i:13;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3047;s:8:\"function\";s:32:\"getProductClassRepositoryService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:14;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2759;s:8:\"function\";s:21:\"getCartServiceService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:15;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:2857;s:8:\"function\";s:14:\"getTwigService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:16;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\var\\cache\\dev\\ContainerRdyrpdk\\EccubeDevDebugProjectContainer.php\";s:4:\"line\";i:3357;s:8:\"function\";s:36:\"getMobileTemplatePathListenerService\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:17;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:229;s:8:\"function\";s:26:\"ContainerRdyrpdk\\{closure}\";s:5:\"class\";s:47:\"ContainerRdyrpdk\\EccubeDevDebugProjectContainer\";s:4:\"type\";s:2:\"->\";}i:18;a:5:{s:4:\"file\";s:83:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\EventDispatcher.php\";s:4:\"line\";i:61;s:8:\"function\";s:13:\"sortListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:19;a:5:{s:4:\"file\";s:97:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\ContainerAwareEventDispatcher.php\";s:4:\"line\";i:128;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:49:\"Symfony\\Component\\EventDispatcher\\EventDispatcher\";s:4:\"type\";s:2:\"->\";}i:20;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:250;s:8:\"function\";s:12:\"getListeners\";s:5:\"class\";s:63:\"Symfony\\Component\\EventDispatcher\\ContainerAwareEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:21;a:5:{s:4:\"file\";s:98:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\event-dispatcher\\Debug\\TraceableEventDispatcher.php\";s:4:\"line\";i:134;s:8:\"function\";s:10:\"preProcess\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:22;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:127;s:8:\"function\";s:8:\"dispatch\";s:5:\"class\";s:64:\"Symfony\\Component\\EventDispatcher\\Debug\\TraceableEventDispatcher\";s:4:\"type\";s:2:\"->\";}i:23;a:5:{s:4:\"file\";s:73:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\HttpKernel.php\";s:4:\"line\";i:68;s:8:\"function\";s:9:\"handleRaw\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:24;a:5:{s:4:\"file\";s:69:\"C:\\Users\\user\\git\\hello_ec_cube\\vendor\\symfony\\http-kernel\\Kernel.php\";s:4:\"line\";i:200;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:39:\"Symfony\\Component\\HttpKernel\\HttpKernel\";s:4:\"type\";s:2:\"->\";}i:25;a:5:{s:4:\"file\";s:41:\"C:\\Users\\user\\git\\hello_ec_cube\\index.php\";s:4:\"line\";i:58;s:8:\"function\";s:6:\"handle\";s:5:\"class\";s:35:\"Symfony\\Component\\HttpKernel\\Kernel\";s:4:\"type\";s:2:\"->\";}}s:19:\"\0Exception\0previous\";N;s:11:\"\0*\0severity\";i:16384;}"
+--> extra: { file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\debug\ErrorHandler.php', line: 249, class: Symfony\Component\Debug\ErrorHandler, function: setLoggers, uid: a360842, user_id: N/A, session_id: N/A }
+___ ADMIN __________________________________________________________________________________________
+INIT
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: a360842, user_id: N/A, session_id: N/A }
+___ REQUEST ________________________________________________________________________________________
+Matched route "admin_homepage_sale".
+--> route: admin_homepage_sale
+route_parameters:
+  _controller: 'Eccube\Controller\Admin\AdminController::sale'
+  _route: admin_homepage_sale
+request_uri: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/sale_chart'
+method: GET
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\http-kernel\EventListener\RouterListener.php', line: 125, class: Symfony\Component\HttpKernel\EventListener\RouterListener, function: onKernelRequest, uid: a360842, user_id: N/A, session_id: N/A }
+___ (!) SECURITY ___________________________________________________________________________________
+Read existing security token from the session.
+--> key: _security_admin
+token_class: Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 99, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: handle, uid: a360842, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION time_zone = '+00:00'
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: a360842, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.department AS department_3, t0.login_id AS login_id_4,
+t0.password AS password_5, t0.salt AS salt_6, t0.sort_no AS sort_no_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.login_date AS login_date_10, t0.work_id AS
+work_id_11, t0.authority_id AS authority_id_12, t0.creator_id AS creator_id_13,
+t0.discriminator_type FROM dtb_member t0 WHERE t0.login_id = ? AND t0.work_id = ? AND
+t0.discriminator_type IN ('member') LIMIT 1
+--> 'query params': [neko, 1]
+___ (!) SECURITY ___________________________________________________________________________________
+User was reloaded from a user provider.
+--> provider: Eccube\Security\Core\User\MemberProvider
+username: neko
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 197, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: refreshUser, uid: a360842, user_id: N/A, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.deny_url AS deny_url_2, t0.create_date AS create_date_3, t0.update_date
+AS update_date_4, t0.authority_id AS authority_id_5, t0.creator_id AS creator_id_6,
+t0.discriminator_type FROM dtb_authority_role t0 WHERE t0.authority_id = ? AND
+t0.discriminator_type IN ('authorityrole')
+--> 'query params': [0]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+PROCESS START
+--> - admin_homepage_sale
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.company_name AS company_name_2, t0.company_kana AS company_kana_3,
+t0.postal_code AS postal_code_4, t0.addr01 AS addr01_5, t0.addr02 AS addr02_6, t0.phone_number AS
+phone_number_7, t0.business_hour AS business_hour_8, t0.email01 AS email01_9, t0.email02 AS
+email02_10, t0.email03 AS email03_11, t0.email04 AS email04_12, t0.shop_name AS shop_name_13,
+t0.shop_kana AS shop_kana_14, t0.shop_name_eng AS shop_name_eng_15, t0.update_date AS
+update_date_16, t0.good_traded AS good_traded_17, t0.message AS message_18,
+t0.delivery_free_amount AS delivery_free_amount_19, t0.delivery_free_quantity AS
+delivery_free_quantity_20, t0.option_mypage_order_status_display AS
+option_mypage_order_status_display_21, t0.option_nostock_hidden AS option_nostock_hidden_22,
+t0.option_favorite_product AS option_favorite_product_23, t0.option_product_delivery_fee AS
+option_product_delivery_fee_24, t0.option_product_tax_rule AS option_product_tax_rule_25,
+t0.option_customer_activate AS option_customer_activate_26, t0.option_remember_me AS
+option_remember_me_27, t0.authentication_key AS authentication_key_28, t0.php_path AS php_path_29,
+t0.option_point AS option_point_30, t0.basic_point_rate AS basic_point_rate_31,
+t0.point_conversion_rate AS point_conversion_rate_32, t0.country_id AS country_id_33, t0.pref_id
+AS pref_id_34, t0.discriminator_type FROM dtb_base_info t0 WHERE t0.id = ? AND
+t0.discriminator_type IN ('baseinfo')
+--> 'query params': [1]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.deny_url AS deny_url_2, t0.create_date AS create_date_3, t0.update_date
+AS update_date_4, t0.authority_id AS authority_id_5, t0.creator_id AS creator_id_6,
+t0.discriminator_type FROM dtb_authority_role t0 WHERE t0.authority_id = ? AND
+t0.discriminator_type IN ('authorityrole')
+--> 'query params': [0]
+___ DOCTRINE _______________________________________________________________________________________
+SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+___ ADMIN __________________________________________________________________________________________
+Begin Transaction.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ ADMIN __________________________________________________________________________________________
+LOGIC START
+--> - admin_homepage_sale
+___ DOCTRINE _______________________________________________________________________________________
+SELECT d0_.id AS id_0, d0_.pre_order_id AS pre_order_id_1, d0_.order_no AS order_no_2, d0_.message
+AS message_3, d0_.name01 AS name01_4, d0_.name02 AS name02_5, d0_.kana01 AS kana01_6, d0_.kana02
+AS kana02_7, d0_.company_name AS company_name_8, d0_.email AS email_9, d0_.phone_number AS
+phone_number_10, d0_.postal_code AS postal_code_11, d0_.addr01 AS addr01_12, d0_.addr02 AS
+addr02_13, d0_.birth AS birth_14, d0_.subtotal AS subtotal_15, d0_.discount AS discount_16,
+d0_.delivery_fee_total AS delivery_fee_total_17, d0_.charge AS charge_18, d0_.tax AS tax_19,
+d0_.total AS total_20, d0_.payment_total AS payment_total_21, d0_.payment_method AS
+payment_method_22, d0_.note AS note_23, d0_.create_date AS create_date_24, d0_.update_date AS
+update_date_25, d0_.order_date AS order_date_26, d0_.payment_date AS payment_date_27,
+d0_.currency_code AS currency_code_28, d0_.complete_message AS complete_message_29,
+d0_.complete_mail_message AS complete_mail_message_30, d0_.add_point AS add_point_31,
+d0_.use_point AS use_point_32, d0_.discriminator_type AS discriminator_type_33, d0_.customer_id AS
+customer_id_34, d0_.country_id AS country_id_35, d0_.pref_id AS pref_id_36, d0_.sex_id AS
+sex_id_37, d0_.job_id AS job_id_38, d0_.payment_id AS payment_id_39, d0_.device_type_id AS
+device_type_id_40, d0_.order_status_id AS order_status_id_41, d0_.order_status_id AS
+order_status_id_42, d0_.order_status_id AS order_status_id_43 FROM dtb_order d0_ WHERE
+(d0_.order_date >= ? AND d0_.order_date <= ? AND d0_.order_status_id NOT IN (?)) AND
+d0_.discriminator_type IN ('order') ORDER BY d0_.order_date ASC
+--> 'query params': ['2019-08-30T15:00:00+00:00', '2019-09-07T03:50:36+00:00', [3, 7, 8, 9]]
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT d0_.id AS id_0, d0_.pre_order_id AS pre_order_id_1, d0_.order_no AS order_no_2, d0_.message
+AS message_3, d0_.name01 AS name01_4, d0_.name02 AS name02_5, d0_.kana01 AS kana01_6, d0_.kana02
+AS kana02_7, d0_.company_name AS company_name_8, d0_.email AS email_9, d0_.phone_number AS
+phone_number_10, d0_.postal_code AS postal_code_11, d0_.addr01 AS addr01_12, d0_.addr02 AS
+addr02_13, d0_.birth AS birth_14, d0_.subtotal AS subtotal_15, d0_.discount AS discount_16,
+d0_.delivery_fee_total AS delivery_fee_total_17, d0_.charge AS charge_18, d0_.tax AS tax_19,
+d0_.total AS total_20, d0_.payment_total AS payment_total_21, d0_.payment_method AS
+payment_method_22, d0_.note AS note_23, d0_.create_date AS create_date_24, d0_.update_date AS
+update_date_25, d0_.order_date AS order_date_26, d0_.payment_date AS payment_date_27,
+d0_.currency_code AS currency_code_28, d0_.complete_message AS complete_message_29,
+d0_.complete_mail_message AS complete_mail_message_30, d0_.add_point AS add_point_31,
+d0_.use_point AS use_point_32, d0_.discriminator_type AS discriminator_type_33, d0_.customer_id AS
+customer_id_34, d0_.country_id AS country_id_35, d0_.pref_id AS pref_id_36, d0_.sex_id AS
+sex_id_37, d0_.job_id AS job_id_38, d0_.payment_id AS payment_id_39, d0_.device_type_id AS
+device_type_id_40, d0_.order_status_id AS order_status_id_41, d0_.order_status_id AS
+order_status_id_42, d0_.order_status_id AS order_status_id_43 FROM dtb_order d0_ WHERE
+(d0_.order_date >= ? AND d0_.order_date <= ? AND d0_.order_status_id NOT IN (?)) AND
+d0_.discriminator_type IN ('order') ORDER BY d0_.order_date ASC
+--> 'query params': ['2019-08-31T15:00:00+00:00', '2019-09-07T03:50:36+00:00', [3, 7, 8, 9]]
+___ DOCTRINE _______________________________________________________________________________________
+SELECT d0_.id AS id_0, d0_.pre_order_id AS pre_order_id_1, d0_.order_no AS order_no_2, d0_.message
+AS message_3, d0_.name01 AS name01_4, d0_.name02 AS name02_5, d0_.kana01 AS kana01_6, d0_.kana02
+AS kana02_7, d0_.company_name AS company_name_8, d0_.email AS email_9, d0_.phone_number AS
+phone_number_10, d0_.postal_code AS postal_code_11, d0_.addr01 AS addr01_12, d0_.addr02 AS
+addr02_13, d0_.birth AS birth_14, d0_.subtotal AS subtotal_15, d0_.discount AS discount_16,
+d0_.delivery_fee_total AS delivery_fee_total_17, d0_.charge AS charge_18, d0_.tax AS tax_19,
+d0_.total AS total_20, d0_.payment_total AS payment_total_21, d0_.payment_method AS
+payment_method_22, d0_.note AS note_23, d0_.create_date AS create_date_24, d0_.update_date AS
+update_date_25, d0_.order_date AS order_date_26, d0_.payment_date AS payment_date_27,
+d0_.currency_code AS currency_code_28, d0_.complete_message AS complete_message_29,
+d0_.complete_mail_message AS complete_mail_message_30, d0_.add_point AS add_point_31,
+d0_.use_point AS use_point_32, d0_.discriminator_type AS discriminator_type_33, d0_.customer_id AS
+customer_id_34, d0_.country_id AS country_id_35, d0_.pref_id AS pref_id_36, d0_.sex_id AS
+sex_id_37, d0_.job_id AS job_id_38, d0_.payment_id AS payment_id_39, d0_.device_type_id AS
+device_type_id_40, d0_.order_status_id AS order_status_id_41, d0_.order_status_id AS
+order_status_id_42, d0_.order_status_id AS order_status_id_43 FROM dtb_order d0_ WHERE
+(d0_.order_date >= ? AND d0_.order_date <= ? AND d0_.order_status_id NOT IN (?)) AND
+d0_.discriminator_type IN ('order') ORDER BY d0_.order_date ASC
+--> 'query params': ['2018-08-31T15:00:00+00:00', '2019-09-07T03:50:36+00:00', [3, 7, 8, 9]]
+___ ADMIN __________________________________________________________________________________________
+LOGIC END
+--> - admin_homepage_sale
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 64, class: Eccube\Log\Logger, function: log, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ (!) SECURITY ___________________________________________________________________________________
+Stored the security token in the session.
+--> key: _security_admin
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\security\Http\Firewall\ContextListener.php', line: 144, class: Symfony\Component\Security\Http\Firewall\ContextListener, function: onKernelResponse, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ DOCTRINE _______________________________________________________________________________________
+SELECT t0.id AS id_1, t0.name AS name_2, t0.code AS code_3, t0.enabled AS enabled_4, t0.version AS
+version_5, t0.source AS source_6, t0.initialized AS initialized_7, t0.create_date AS
+create_date_8, t0.update_date AS update_date_9, t0.discriminator_type FROM dtb_plugin t0 WHERE
+t0.discriminator_type IN ('plugin')
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: a360842, user_id: 1, session_id: erv2v36jj1sjhn2pmq3639sdoj }
+___ APP ____________________________________________________________________________________________
+PROCESS END
+--> - admin_homepage_sale
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: a360842, user_id: 1, session_id: N/A }
+___ DOCTRINE _______________________________________________________________________________________
+"COMMIT"
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\vendor\symfony\doctrine-bridge\Logger\DbalLogger.php', line: 67, class: Symfony\Bridge\Doctrine\Logger\DbalLogger, function: log, uid: a360842, user_id: 1, session_id: N/A }
+___ DOCTRINE _______________________________________________________________________________________
+"START TRANSACTION"
+___ APP ____________________________________________________________________________________________
+Commit executed.
+--> extra: { url: /hello_ec_cube/mng_hello_ec_cube/sale_chart, ip: '::1', http_method: GET, server: localhost, referrer: 'http://localhost/hello_ec_cube/mng_hello_ec_cube/', user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36', file: 'C:\Users\user\git\hello_ec_cube\src\Eccube\Log\Logger.php', line: 68, class: Eccube\Log\Logger, function: log, uid: a360842, user_id: 1, session_id: N/A }
+
+

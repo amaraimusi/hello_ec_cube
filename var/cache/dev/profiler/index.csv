@@ -1,0 +1,7 @@
+12a15f,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/login,1567827644,d1b7b7,200
+d1b7b7,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/,1567827653,,401
+ef3a11,::1,POST,http://localhost/hello_ec_cube/mng_hello_ec_cube/login,1567827663,,302
+e5d72e,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/,1567827691,55e9ab,200
+55e9ab,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/,1567827692,,500
+767285,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/,1567828228,,200
+2a4c2a,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/sale_chart,1567828236,,200
