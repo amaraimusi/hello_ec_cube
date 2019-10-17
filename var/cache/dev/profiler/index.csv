@@ -5,3 +5,6 @@ e5d72e,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/,1567827691,55e9
 55e9ab,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/,1567827692,,500
 767285,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/,1567828228,,200
 2a4c2a,::1,GET,http://localhost/hello_ec_cube/mng_hello_ec_cube/sale_chart,1567828236,,200
+83cba8,::1,GET,http://localhost/hello_ec_cube/block/search_product,1567846047,21dcef,200
+5b608f,::1,GET,http://localhost/hello_ec_cube/block/search_product,1567846048,21dcef,200
+21dcef,::1,GET,http://localhost/hello_ec_cube/,1567846048,,200
