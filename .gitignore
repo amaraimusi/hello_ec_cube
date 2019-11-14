@@ -1,1 +1,5 @@
 /var/
+/composer.json
+/composer.lock
+/gulpfile.js
+/package-lock.json
